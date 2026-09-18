@@ -16,6 +16,12 @@ on:
 permissions:
   contents: write
 
+# schedule 与 push 可能同时触发。不加并发控制时两个 run 会各自
+# 提交并推送，后推的那个必然被拒而失败。
+concurrency:
+  group: update-stats
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -46,4 +52,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/stats.svg assets/langs.svg
           git commit -m "chore: 刷新统计数据 [skip ci]"
+          # 兜底：并发控制之外的场景（例如手动触发撞上定时任务）远端可能已前进
+          git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
