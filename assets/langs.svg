@@ -15,28 +15,28 @@
     <text x="34" y="34" font-size="12" font-weight="700" letter-spacing="1.4" fill="#8b9dc3">语言分布 · LANGUAGES</text>
     <g>
       <circle cx="138" cy="120" r="66" fill="none" stroke="#f1e05a" stroke-width="26"
-        stroke-dasharray="177.22 237.48" stroke-dashoffset="0.00"
+        stroke-dasharray="177.61 237.08" stroke-dashoffset="0.00"
         transform="rotate(-90 138 120)"/>
     <circle cx="138" cy="120" r="66" fill="none" stroke="#41b883" stroke-width="26"
-        stroke-dasharray="79.95 334.74" stroke-dashoffset="-177.22"
+        stroke-dasharray="79.82 334.87" stroke-dashoffset="-177.61"
         transform="rotate(-90 138 120)"/>
     <circle cx="138" cy="120" r="66" fill="none" stroke="#3178c6" stroke-width="26"
-        stroke-dasharray="71.73 342.96" stroke-dashoffset="-257.16"
+        stroke-dasharray="71.61 343.08" stroke-dashoffset="-257.42"
         transform="rotate(-90 138 120)"/>
     <circle cx="138" cy="120" r="66" fill="none" stroke="#b07219" stroke-width="26"
-        stroke-dasharray="45.99 368.70" stroke-dashoffset="-328.90"
+        stroke-dasharray="45.92 368.77" stroke-dashoffset="-329.04"
         transform="rotate(-90 138 120)"/>
     <circle cx="138" cy="120" r="66" fill="none" stroke="#663399" stroke-width="26"
-        stroke-dasharray="24.11 390.58" stroke-dashoffset="-374.89"
+        stroke-dasharray="24.07 390.62" stroke-dashoffset="-374.95"
         transform="rotate(-90 138 120)"/>
     <circle cx="138" cy="120" r="66" fill="none" stroke="#e34c26" stroke-width="26"
-        stroke-dasharray="9.15 405.54" stroke-dashoffset="-399.00"
+        stroke-dasharray="9.14 405.55" stroke-dashoffset="-399.02"
         transform="rotate(-90 138 120)"/>
     <circle cx="138" cy="120" r="66" fill="none" stroke="#c6538c" stroke-width="26"
-        stroke-dasharray="2.38 412.31" stroke-dashoffset="-408.15"
+        stroke-dasharray="2.38 412.31" stroke-dashoffset="-408.16"
         transform="rotate(-90 138 120)"/>
     <circle cx="138" cy="120" r="66" fill="none" stroke="#475569" stroke-width="26"
-        stroke-dasharray="4.16 410.53" stroke-dashoffset="-410.53"
+        stroke-dasharray="4.15 410.54" stroke-dashoffset="-410.54"
         transform="rotate(-90 138 120)"/>
       <text x="138" y="116" text-anchor="middle" font-size="26" font-weight="800" fill="#e2e8f0">13</text>
       <text x="138" y="138" text-anchor="middle" font-size="11" fill="#8b9dc3">种语言</text>
@@ -44,11 +44,11 @@
     <g>
       <rect x="320" y="67" width="12" height="12" rx="3" fill="#f1e05a"/>
       <text x="342" y="78" font-size="14.5" font-weight="600" fill="#e2e8f0">JavaScript</text>
-      <text x="550" y="78" text-anchor="end" font-size="14.5" font-weight="700" fill="#8b9dc3">42.7%</text>
+      <text x="550" y="78" text-anchor="end" font-size="14.5" font-weight="700" fill="#8b9dc3">42.8%</text>
     </g><g>
       <rect x="320" y="107" width="12" height="12" rx="3" fill="#41b883"/>
       <text x="342" y="118" font-size="14.5" font-weight="600" fill="#e2e8f0">Vue</text>
-      <text x="550" y="118" text-anchor="end" font-size="14.5" font-weight="700" fill="#8b9dc3">19.3%</text>
+      <text x="550" y="118" text-anchor="end" font-size="14.5" font-weight="700" fill="#8b9dc3">19.2%</text>
     </g><g>
       <rect x="320" y="147" width="12" height="12" rx="3" fill="#3178c6"/>
       <text x="342" y="158" font-size="14.5" font-weight="600" fill="#e2e8f0">TypeScript</text>
