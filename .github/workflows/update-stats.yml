@@ -1,0 +1,49 @@
+name: Update profile stats
+
+on:
+  schedule:
+    # 每天 UTC 03:17 —— 刻意避开整点，减少 GitHub 调度高峰的延迟
+    - cron: '17 3 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'assets/**'
+      - '.github/workflows/update-stats.yml'
+  workflow_dispatch:
+
+# 需要写权限才能把新生成的 SVG 提交回仓库
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate stat SVGs
+        env:
+          # 查询的都是公开数据，内置 token 足够，无需额外配置 PAT
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: OPBR
+        run: node scripts/generate-stats.mjs
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- assets/; then
+            echo "统计数据无变化，跳过提交"
+            exit 0
+          fi
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg assets/langs.svg
+          git commit -m "chore: 刷新统计数据 [skip ci]"
+          git push

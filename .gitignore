@@ -1,0 +1,11 @@
+# 本地渲染预览图（用 headless Chrome 生成，仅供目视检查，不入库）
+.preview/
+
+# 依赖（本项目脚本零依赖，留着以备后续扩展）
+node_modules/
+
+# 编辑器 / 系统
+.DS_Store
+.idea/
+.vscode/
+*.log

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="168" viewBox="0 0 880 168" role="img" aria-labelledby="statsTitle">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="880" y2="168" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0c1230"/>
+      <stop offset="1" stop-color="#070b18"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="880" height="168" rx="14" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="879" height="167" rx="14" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+  <g font-family="ui-sans-serif, -apple-system, &apos;Segoe UI&apos;, Roboto, &apos;PingFang SC&apos;, &apos;Microsoft YaHei&apos;, Helvetica, Arial, sans-serif">
+    <g>
+      <rect x="34" y="30" width="189.5" height="108" rx="10" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.06"/>
+      <rect x="34" y="30" width="189.5" height="2.5" rx="1.25" fill="url(#accent)" opacity="0.85"/>
+      <text x="128.75" y="76" text-anchor="middle" font-size="36" font-weight="800" fill="#e2e8f0">143</text>
+      <text x="128.75" y="102" text-anchor="middle" font-size="11.5" font-weight="700" letter-spacing="1.4" fill="#6366f1">TOTAL STARS</text>
+      <text x="128.75" y="122" text-anchor="middle" font-size="13" fill="#8b9dc3">获得 Star</text>
+    </g>
+    <g>
+      <rect x="241.5" y="30" width="189.5" height="108" rx="10" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.06"/>
+      <rect x="241.5" y="30" width="189.5" height="2.5" rx="1.25" fill="url(#accent)" opacity="0.85"/>
+      <text x="336.25" y="76" text-anchor="middle" font-size="36" font-weight="800" fill="#e2e8f0">19</text>
+      <text x="336.25" y="102" text-anchor="middle" font-size="11.5" font-weight="700" letter-spacing="1.4" fill="#6366f1">REPOSITORIES</text>
+      <text x="336.25" y="122" text-anchor="middle" font-size="13" fill="#8b9dc3">自有仓库</text>
+    </g>
+    <g>
+      <rect x="449" y="30" width="189.5" height="108" rx="10" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.06"/>
+      <rect x="449" y="30" width="189.5" height="2.5" rx="1.25" fill="url(#accent)" opacity="0.85"/>
+      <text x="543.75" y="76" text-anchor="middle" font-size="36" font-weight="800" fill="#e2e8f0">16</text>
+      <text x="543.75" y="102" text-anchor="middle" font-size="11.5" font-weight="700" letter-spacing="1.4" fill="#6366f1">FOLLOWERS</text>
+      <text x="543.75" y="122" text-anchor="middle" font-size="13" fill="#8b9dc3">关注者</text>
+    </g>
+    <g>
+      <rect x="656.5" y="30" width="189.5" height="108" rx="10" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.06"/>
+      <rect x="656.5" y="30" width="189.5" height="2.5" rx="1.25" fill="url(#accent)" opacity="0.85"/>
+      <text x="751.25" y="76" text-anchor="middle" font-size="36" font-weight="800" fill="#e2e8f0">497</text>
+      <text x="751.25" y="102" text-anchor="middle" font-size="11.5" font-weight="700" letter-spacing="1.4" fill="#6366f1">CONTRIBUTIONS</text>
+      <text x="751.25" y="122" text-anchor="middle" font-size="13" fill="#8b9dc3">年度贡献</text>
+    </g></g>
+</svg>

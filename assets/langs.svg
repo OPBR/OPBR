@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="240" viewBox="0 0 880 240" role="img" aria-labelledby="langsTitle">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="880" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0c1230"/>
+      <stop offset="1" stop-color="#070b18"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="880" height="240" rx="14" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="879" height="239" rx="14" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+  <g font-family="ui-sans-serif, -apple-system, &apos;Segoe UI&apos;, Roboto, &apos;PingFang SC&apos;, &apos;Microsoft YaHei&apos;, Helvetica, Arial, sans-serif">
+    <text x="34" y="34" font-size="12" font-weight="700" letter-spacing="1.4" fill="#8b9dc3">语言分布 · LANGUAGES</text>
+    <g>
+      <circle cx="138" cy="120" r="66" fill="none" stroke="#f1e05a" stroke-width="26"
+        stroke-dasharray="177.22 237.48" stroke-dashoffset="0.00"
+        transform="rotate(-90 138 120)"/>
+    <circle cx="138" cy="120" r="66" fill="none" stroke="#41b883" stroke-width="26"
+        stroke-dasharray="79.95 334.74" stroke-dashoffset="-177.22"
+        transform="rotate(-90 138 120)"/>
+    <circle cx="138" cy="120" r="66" fill="none" stroke="#3178c6" stroke-width="26"
+        stroke-dasharray="71.73 342.96" stroke-dashoffset="-257.16"
+        transform="rotate(-90 138 120)"/>
+    <circle cx="138" cy="120" r="66" fill="none" stroke="#b07219" stroke-width="26"
+        stroke-dasharray="45.99 368.70" stroke-dashoffset="-328.90"
+        transform="rotate(-90 138 120)"/>
+    <circle cx="138" cy="120" r="66" fill="none" stroke="#663399" stroke-width="26"
+        stroke-dasharray="24.11 390.58" stroke-dashoffset="-374.89"
+        transform="rotate(-90 138 120)"/>
+    <circle cx="138" cy="120" r="66" fill="none" stroke="#e34c26" stroke-width="26"
+        stroke-dasharray="9.15 405.54" stroke-dashoffset="-399.00"
+        transform="rotate(-90 138 120)"/>
+    <circle cx="138" cy="120" r="66" fill="none" stroke="#c6538c" stroke-width="26"
+        stroke-dasharray="2.38 412.31" stroke-dashoffset="-408.15"
+        transform="rotate(-90 138 120)"/>
+    <circle cx="138" cy="120" r="66" fill="none" stroke="#475569" stroke-width="26"
+        stroke-dasharray="4.16 410.53" stroke-dashoffset="-410.53"
+        transform="rotate(-90 138 120)"/>
+      <text x="138" y="116" text-anchor="middle" font-size="26" font-weight="800" fill="#e2e8f0">13</text>
+      <text x="138" y="138" text-anchor="middle" font-size="11" fill="#8b9dc3">种语言</text>
+    </g>
+    <g>
+      <rect x="320" y="67" width="12" height="12" rx="3" fill="#f1e05a"/>
+      <text x="342" y="78" font-size="14.5" font-weight="600" fill="#e2e8f0">JavaScript</text>
+      <text x="550" y="78" text-anchor="end" font-size="14.5" font-weight="700" fill="#8b9dc3">42.7%</text>
+    </g><g>
+      <rect x="320" y="107" width="12" height="12" rx="3" fill="#41b883"/>
+      <text x="342" y="118" font-size="14.5" font-weight="600" fill="#e2e8f0">Vue</text>
+      <text x="550" y="118" text-anchor="end" font-size="14.5" font-weight="700" fill="#8b9dc3">19.3%</text>
+    </g><g>
+      <rect x="320" y="147" width="12" height="12" rx="3" fill="#3178c6"/>
+      <text x="342" y="158" font-size="14.5" font-weight="600" fill="#e2e8f0">TypeScript</text>
+      <text x="550" y="158" text-anchor="end" font-size="14.5" font-weight="700" fill="#8b9dc3">17.3%</text>
+    </g><g>
+      <rect x="320" y="187" width="12" height="12" rx="3" fill="#b07219"/>
+      <text x="342" y="198" font-size="14.5" font-weight="600" fill="#e2e8f0">Java</text>
+      <text x="550" y="198" text-anchor="end" font-size="14.5" font-weight="700" fill="#8b9dc3">11.1%</text>
+    </g><g>
+      <rect x="600" y="67" width="12" height="12" rx="3" fill="#663399"/>
+      <text x="622" y="78" font-size="14.5" font-weight="600" fill="#e2e8f0">CSS</text>
+      <text x="830" y="78" text-anchor="end" font-size="14.5" font-weight="700" fill="#8b9dc3">5.8%</text>
+    </g><g>
+      <rect x="600" y="107" width="12" height="12" rx="3" fill="#e34c26"/>
+      <text x="622" y="118" font-size="14.5" font-weight="600" fill="#e2e8f0">HTML</text>
+      <text x="830" y="118" text-anchor="end" font-size="14.5" font-weight="700" fill="#8b9dc3">2.2%</text>
+    </g><g>
+      <rect x="600" y="147" width="12" height="12" rx="3" fill="#c6538c"/>
+      <text x="622" y="158" font-size="14.5" font-weight="600" fill="#e2e8f0">SCSS</text>
+      <text x="830" y="158" text-anchor="end" font-size="14.5" font-weight="700" fill="#8b9dc3">0.6%</text>
+    </g><g>
+      <rect x="600" y="187" width="12" height="12" rx="3" fill="#475569"/>
+      <text x="622" y="198" font-size="14.5" font-weight="600" fill="#e2e8f0">Other</text>
+      <text x="830" y="198" text-anchor="end" font-size="14.5" font-weight="700" fill="#8b9dc3">1.0%</text>
+    </g></g>
+</svg>
