@@ -15,7 +15,7 @@
     <g>
       <rect x="34" y="30" width="189.5" height="108" rx="10" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.06"/>
       <rect x="34" y="30" width="189.5" height="2.5" rx="1.25" fill="url(#accent)" opacity="0.85"/>
-      <text x="128.75" y="76" text-anchor="middle" font-size="36" font-weight="800" fill="#e2e8f0">143</text>
+      <text x="128.75" y="76" text-anchor="middle" font-size="36" font-weight="800" fill="#e2e8f0">142</text>
       <text x="128.75" y="102" text-anchor="middle" font-size="11.5" font-weight="700" letter-spacing="1.4" fill="#6366f1">TOTAL STARS</text>
       <text x="128.75" y="122" text-anchor="middle" font-size="13" fill="#8b9dc3">获得 Star</text>
     </g>
@@ -36,7 +36,7 @@
     <g>
       <rect x="656.5" y="30" width="189.5" height="108" rx="10" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.06"/>
       <rect x="656.5" y="30" width="189.5" height="2.5" rx="1.25" fill="url(#accent)" opacity="0.85"/>
-      <text x="751.25" y="76" text-anchor="middle" font-size="36" font-weight="800" fill="#e2e8f0">520</text>
+      <text x="751.25" y="76" text-anchor="middle" font-size="36" font-weight="800" fill="#e2e8f0">524</text>
       <text x="751.25" y="102" text-anchor="middle" font-size="11.5" font-weight="700" letter-spacing="1.4" fill="#6366f1">CONTRIBUTIONS</text>
       <text x="751.25" y="122" text-anchor="middle" font-size="13" fill="#8b9dc3">年度贡献</text>
     </g></g>
